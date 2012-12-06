@@ -1,0 +1,67 @@
+
+
+/*****************************/		
+/*        GENERAL             *
+/*****************************/	
+
+body {
+    background: #cbd2da;
+}
+
+
+
+/*****************************/		
+/*  CSS SPRITE NAVIGATION     *
+/*****************************/	
+	
+nav li {
+    overflow: hidden;
+    text-indent: 9999999px;
+    float: left;
+    margin-right: 20px;
+}
+nav li a {
+    background: url(../images/menu-sprite.jpg) no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+nav li.home {
+    width: 115px;
+    height: 60px;
+}
+nav li.home a {
+    background-position: -5px -5px;
+}
+nav li.home a:hover {
+    background-position: -5px -75px;
+}
+nav li.home a.slected {
+    background-position: -5px -145px;
+}
+nav li.about {
+    width: 120px;
+    height: 60px;
+}
+nav li.about a {
+    background-position: -125px -5px;
+}
+nav li.about a:hover {
+    background-position: -125px -75px;
+}
+nav li.about a.slected {
+    background-position: -125px -145px;
+}
+nav li.contact {
+    width: 162px;
+    height: 60px;
+}
+nav li.contact a {
+    background-position: -249px -5px;
+}
+nav li.contact a:hover {
+    background-position: -249px -75px;
+}
+nav li.contact a.slected {
+    background-position: -250px -145px;
+}
